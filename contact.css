@@ -1,0 +1,32 @@
+.mid-text {
+    text-align: center !important;
+}
+
+@media screen and (max-width: 600px) {
+    .setting {
+      margin-top: 10px;
+    }
+  }
+
+.contact {
+    text-align: center !important;
+    color: rgb(223, 13, 13) !important;
+    font-weight: bold !important;
+}
+
+.btn-primary {
+  background-color: rgb(223, 13, 13) !important;
+  color: yellow !important;
+  font-weight: bold;
+  border: none;
+}
+
+.input-group-text {
+  background-color: rgb(223, 13, 13) !important;
+  color: yellow !important;
+  font-weight: bold;
+}
+
+.needs-validation {
+  font-weight: bold;
+}

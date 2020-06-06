@@ -1,0 +1,104 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+.red {
+    color: yellow!important;
+    font-weight: bold!important;
+  
+}
+
+.red1 {
+  background-color: rgb(223, 13, 13);
+}
+
+.yellow {
+    background-color: rgb(223, 13, 13);
+}
+
+.carousel-inner img{
+    height: 500px!important;
+ }
+
+ .Deals {
+     background-color: rgb(223, 13, 13) !important;
+ }
+
+ h2 {
+     padding-top: 20px !important;
+ }
+
+ .deal, .deal1 {
+     color: yellow;
+     font-weight: bold;
+     text-align: center;
+ }
+
+ .select img{
+     max-height: 250px !important;
+ }
+
+ .card-title {
+     text-align: center !important;
+     color: rgb(223, 13, 13) !important;
+     font-weight: bold !important;
+ }
+
+ .card-text {
+     text-align: justify !important;
+     color: black !important;
+     font-weight: bold !important;
+ }
+
+ .card-footer {
+     background-color: yellow !important;
+     text-align: center !important;
+ }
+
+ .text-muted {
+    color: rgb(223, 13, 13) !important;
+    font-weight: bold !important;
+ }
+
+ .bg-yellow {
+     background-color: rgb(223, 13, 13) !important;
+ }
+
+ .select1 img{
+     max-height: 300px !important;
+ }
+
+ .footer {
+     background-color: black !important;
+     padding-top: 20px !important;
+ }
+
+ .row {
+     padding-left: 30px !important;
+     padding-right: 20px !important;
+ }
+
+ .footer-para {
+     color: white;
+     font-weight: bold;
+ }
+
+
+ .foot {
+     color: rgb(223, 13, 13) !important;
+     font-weight: bold;
+ }
+
+ .pages li, .pages a{
+    list-style-type: none;
+    color: white !important;
+    font-weight: bold;
+    line-height: 3.333rem !important;
+ }
+
+
+ .form-group label {
+    color: white !important;
+    font-weight: bold;
+ }

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div>
+        <!--Navigation section-->
+        <nav class="navbar navbar-expand-lg navbar-light yellow sticky-top">
+            <a class="navbar-brand" href="home.html"><img class="rounded-circle" src="LockDown.jpg" width="60px" height="60px" alt="CafeLockDown Logo"></a>
+            <button class="navbar-toggler red1 rounded-circle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span><i class="fa fa-navicon"></i></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active red">
+                  <a class="nav-link red" href="home.html"></i>HOME<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item red">
+                  <a class="nav-link red" href="menu.html">MENU</a>
+                </li>
+                <li class="nav-item red">
+                    <a class="nav-link red" href="deal.html">SPECIAL DEALS</a>
+                  </li>
+                  <li class="nav-item red">
+                    <a class="nav-link red" href="contact.html">CONTACT US</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+
+          <!--Custom Order-->
+          <h2 class="contact">Contact Us</h2>
+          <div class="row mt-3 mb-2">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Place your Order</h5>
+                  <p class="card-text mid-text">Place your order now and get the best taste in the town with amazing deals and enjoy the food. <br> Fill out the form below to place your order</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card setting">
+                <div class="card-body">
+                  <h5 class="card-title">Got a Custom Order?</h5>
+                  <p class="card-text mid-text">Need to place custom order? Order Now ands get the best taste in the town with amazing deals. <br> Fill out the form below to place your order</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!--Form-->
+          <form class="needs-validation mt-3 mb-3 px-3 py-2" novalidate>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationTooltip01">First name</label>
+                <input type="text" class="form-control" id="validationTooltip01" placeholder="Enter First Name" required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="validationTooltip02">Last name</label>
+                <input type="text" class="form-control" id="validationTooltip02" placeholder="Enter Last Name"  required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-3 mb-3">
+                <label for="validationTooltip03">City</label>
+                <input type="text" class="form-control" id="validationTooltip03" placeholder="Enter City" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid city.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationTooltip04">State</label>
+                <select class="custom-select" id="validationTooltip04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>Pakistan</option>
+                </select>
+                <div class="invalid-tooltip">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="validationTooltip05">Address</label>
+                <input type="text" class="form-control" id="validationTooltip05" placeholder="Enter Street Address" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid address.
+                </div>
+              </div>
+            </div>
+            <div class="input-group mb-3">
+              <select class="custom-select" id="inputGroupSelect02">
+                <option selected>Choose...</option>
+                <option selected>Choose...</option>
+                <option value="1">Deal 1</option>
+                <option value="2">Deal 2</option>
+                <option value="3">Deal 3</option>
+                <option value="3">Deal 4</option>
+                <option value="3">Deal 5</option>
+                <option value="3">Deal 6</option>
+                <option value="3">Deal 7</option>
+                <option value="3">Deal 8</option>
+                <option value="3">Deal 9</option>
+              </select>
+              <div class="input-group-append">
+                <label class="input-group-text" for="inputGroupSelect02">Deals</label>
+              </div>
+            </div>
+            <div class="input-group mb-3">
+              <select class="custom-select" id="inputGroupSelect02">
+                <option selected>Choose...</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="3">4</option>
+                <option value="3">5</option>
+                <option value="3">6</option>
+                <option value="3">7</option>
+                <option value="3">8</option>
+                <option value="3">9</option>
+              </select>
+              <div class="input-group-append">
+                <label class="input-group-text" for="inputGroupSelect02">Quantity</label>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-group-append">
+                <span class="input-group-text">Comments</span>
+              </div>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+            <div class="text-center mt-3">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+
+
+ <!--Footer-->
+ <div class="footer">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="LockDown.jpg" class="rounded-circle" alt="LockDown" width="100px" height="100px">
+        <p class="footer-para">Cafe LockDown is speicalized in preparing Mouth Watering Dishes. So if you are a fan of Fast Food get connected and have a tremendous experience with food</p>
+        <p class="footer-para">© 2020 InNovelity, All rights reserved</p>
+      </div>
+      <div class="col-md-3">
+        <h4 class="foot">LIST</h4>
+        <ul class="pages">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="deal.html">Special Deals</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      </div>
+      <div class="col-md-3">
+        <h4 class="foot">Follow Us</h4>
+        <ul class="pages">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+      </ul>
+      </div>
+      <div class="col-md-3">
+        <h4 class="foot">Connect With Us</h4>
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Comment</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter Your Comments" rows="3"></textarea>
+          </div>
+        </form>
+      </div>
+
+     
+    </div>
+  
+  </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+</body>
+</html>

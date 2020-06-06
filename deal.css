@@ -1,0 +1,26 @@
+.special img{
+    max-height: 400px !important;
+}
+
+.special {
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.format {
+    text-align: center !important;
+    color: rgb(223, 13, 13) !important;
+    font-weight: bold !important;
+}
+
+.classic img{
+    max-height: 200px !important;
+}
+
+.order {
+    font-size: 1.2rem;
+}

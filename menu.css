@@ -1,0 +1,29 @@
+.Menu {
+    text-align: center !important;
+    color: rgb(223, 13, 13) !important;
+    font-weight: bold !important;
+}
+
+.btn-primary {
+    background-color: rgb(223, 13, 13) !important;
+    color: yellow !important;
+    font-weight: bold;
+    border: none;
+}
+
+.list-group-item {
+    font-weight: bold;
+}
+
+.badge-primary {
+    background-color: rgb(223, 13, 13) !important;
+    color: yellow !important;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+    span {
+        display: inline !important;
+    }
+  }
